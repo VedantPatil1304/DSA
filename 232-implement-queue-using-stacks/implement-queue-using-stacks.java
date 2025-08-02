@@ -2,6 +2,7 @@ class MyQueue {
 	 private Deque<Integer> in_stk = new ArrayDeque<>();
     private Deque<Integer> out_stk = new ArrayDeque<>();
     // Push element x to the back of queue...
+    //k
     public void push(int x) {
         in_stk.push(x);
     }
